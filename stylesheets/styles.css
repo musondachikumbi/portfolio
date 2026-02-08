@@ -14,7 +14,9 @@ body {
 /* Header */
 
 header {
-  background: #222;
+  background-image: url("../images/statistics.jpg");
+  background-size: cover;
+  background-position: center;
   color: white;
   text-align: center;
   padding: 60px 20px;

@@ -5,4 +5,12 @@ This is a personal portfolio website built using HTML and CSS to showcase my pro
 https://musondachikumbi.github.io/portfolio/
 ## Technologies used.
 HTML5
-CSS
+CSS3
+
+## Projct Structure
+portfolio/
+- stylesheets/styles.css
+- index.html
+
+## Installation
+- Open link  
