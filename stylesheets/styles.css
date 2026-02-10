@@ -118,3 +118,6 @@ footer {
 #view {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+a:hover {
+  color: #043852;
+}
