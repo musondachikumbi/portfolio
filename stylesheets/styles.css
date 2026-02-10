@@ -73,6 +73,15 @@ li{
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+#skills li {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#skills li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
 /* Projects */
 
 .project-grid {
@@ -118,6 +127,13 @@ footer {
 #view {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+a {
+  transition: all 0.3s ease;
+}
+
 a:hover {
   color: #043852;
 }
+
+
