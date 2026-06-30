@@ -50,16 +50,44 @@
       </div>
       
     </div>
-  </section>
+
+</section>
+
+<section id="testimonials">
+  <h2>Testimonials</h2>
+    <div id="testimonial-list" class="testimonial-grid">
+      <p class="testimonial-loading">Loading testimonials...</p>
+</div>
+
+  <h3>Leave a Review</h3>
+    <form id="testimonial-form" class="testimonial-form">
+      <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off">
+      <label for="t-name">Name</label>
+      <input type="text" id="t-name" name="name" required maxlength="60">
+
+      <label for="t-photo">Your Photo</label>
+      <input type="file" id="t-photo" name="photo" accept="image/png, image/jpeg, image/webp" required>
+
+      <label for="t-review">Your Review</label>
+      <textarea id="t-review" name="review" required maxlength="500" rows="4"></textarea>
+
+      <button type="submit" id="t-submit">Submit Review</button>
+      <p id="t-status" class="testimonial-status"></p>
+    </form>
+</section>
 
   <section id="contact">
-  <h2>Contact</h2>
-  <p>Email: musondachikumbi23@gmail.com</p>
-  <p>GitHub: <a href="https://github.com/musondachikumbi" target="_blank" rel="noopener noreferrer">github.com/musondachikumbi</a></p>
+    <h2>Contact</h2>
+      <p>Email: musondachikumbi23@gmail.com</p>
+      <p>GitHub: <a href="https://github.com/musondachikumbi" target="_blank" rel="noopener noreferrer">github.com/musondachikumbi</a></p>
   </section>
 
   <footer>
     <p>© 2026 Musonda Chikumbi</p>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  
+  <script src="scripts/testimonials.js"></script>
 </body>
 </html>
